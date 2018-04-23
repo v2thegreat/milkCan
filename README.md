@@ -180,7 +180,8 @@ plt.show()
 ```
 
 This is what we see:
-![te](Images\Readme Comparison Test.png)
+
+![Graph showing the variation in the two functions runtime](https://github.com/v2thegreat/milkCan/blob/master/Images/Readme%20Comparison%20Test.png)
 
 
 WHAT? Why is the numpy setup slower? That's not what we were expecting, was it?
