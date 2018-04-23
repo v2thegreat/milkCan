@@ -1,2 +1,3 @@
 from milkCan import milkCan
-from . import quickTests
+
+import quickTests
