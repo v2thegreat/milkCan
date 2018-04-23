@@ -1,0 +1,1 @@
+from .quickTests import quickTests
