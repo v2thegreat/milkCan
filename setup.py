@@ -8,4 +8,6 @@ setup(name='milkCan',
       author_email='v2thegreat@gmail.com',
       license='MIT',
       packages=['milkCan'],
-      zip_safe=False)
+      zip_safe=False,
+      dependency_links=['']
+      )
