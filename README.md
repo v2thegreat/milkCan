@@ -102,7 +102,7 @@ and again, this is the same as:
 	
 	101 % array([2, 3, 4, 5, 6, 7, 8, 9])
 
-now, numpy arrays have an intresting property where they can run any numeric operation (like `%` in this case) to an entire array in one go, without needed a for loop. Breaking this down again, we get the result of this operation as:
+now, numpy arrays have an interesting property where they can run any numeric operation (like `%` in this case) to an entire array in one go, without needed a for loop. Breaking this down again, we get the result of this operation as:
 
 	array([1, 2, 1, 1, 5, 3, 5, 2])
 
@@ -191,6 +191,6 @@ Well, that could be for a number of reasons, but it goes to show my point; **you
 Ok, that's not true. It runs *this* Numpy code slower than *this* Python code. Guess Occam was right in this case, the simpler solution was the better one. But what if it wasn't? What if you were writing a time depenant program in python and you needed to check which of the two algoritms was faster quicly without having to look into the documentaion (which may not even exist)? 
 
 
-Ofcourse, there are going to be situations where this is just going to be a bad idea, but isn't that true all the time?
+Of course, there are going to be situations where this is just going to be a bad idea, but isn't that true all the time?
 
 However, if you still decide to mention the thing about it being a bad way to check if functions are faster than another, then I'd like to thank you for your time and effort, and that it's been noted and will be taken care of during the apocalypse, or when hell freezes over and **LORD CHUTULU** takes over :)
