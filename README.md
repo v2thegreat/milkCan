@@ -132,7 +132,7 @@ def isPrimeWithPython(n):
 	return True
 ```
 
-**A Python function that uses a C-compiled Numpy library that's extrememly fast, esp. in comparison to Python:**
+**A Python function that uses the C-compiled Numpy library that's extrememly fast, esp. in comparison to Python:**
 
 ```
 def isPrimeWithNumpyAndPython(n):
