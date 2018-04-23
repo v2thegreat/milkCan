@@ -1,15 +1,15 @@
-#milkCan
+# milkCan
 
 A Python module used to compare execution time between different functions or modules to see which is faster. 
 
 *Note:* It should be mentioned that this module does not take into account memory consumption when running tests
 
 
-##Usage:
+## Usage:
 
 Features simple tests that can be executed from the commandline to check an compare execution speeds for ifferent functions on current hardware
 
-###Understand Usage with Command line
+### Understand Usage with Command line
 
 ```
 >>> from milkCan.speedtests import quickTests
@@ -41,7 +41,7 @@ Output:
 The quicktests class is for Writting tests quickly to see which two functions are faster and seeing other details, such as plotting it to see if the graph indicates anything else about the runtime
 
 
-##Does the creator know that this is a pretty bad way to check if a function is actually faster than another?
+## Does the creator know that this is a pretty bad way to check if a function is actually faster than another?
 
 Yes, he does. Does the reader realize that this is just a project and that all life is meaningless and we are in one way or another just waiting for the heat death of the universe to kill us all?
 
@@ -53,9 +53,9 @@ As an example:
 Let's say I have 2 algorithms, which have the same job; finding out if a number is a prime or not:
 
 
-###Generic Python program to check if a number is prime:
+### Generic Python program to check if a number is prime:
 
-####A traditional Python Prime Number Checking Function
+#### A traditional Python Prime Number Checking Function
 
 ```
 def isPrimeWithPython(n):
@@ -67,7 +67,7 @@ def isPrimeWithPython(n):
 
 As the name suggests, it's a simple python loop that checks if any numbers between 2 to the square root of the given number is divisible by the number itself, and if not calls it a prime number
 
-####Running a Python Prime Number Checking Function with Numpy
+#### Running a Python Prime Number Checking Function with Numpy
 
 ```
 def isPrimeWithNumpyAndPython(n):
