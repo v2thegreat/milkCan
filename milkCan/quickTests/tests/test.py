@@ -17,7 +17,7 @@ class Unittests_quickTests(TestCase):
 
 		self.assertEqual(t.fastest, self.testItem2)
 
-	def test_plot(self):
+	def test_set_function_names(self):
 		t = quickTests.quickTests(range(10**4), self.testItem1, self.testItem2)
 		self.assertEqual(t._quickTests__function_names ,['isPrime', 'isPrime2'])
 
